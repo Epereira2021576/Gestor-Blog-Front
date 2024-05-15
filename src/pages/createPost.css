@@ -1,0 +1,107 @@
+/* Container for the form */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Form content */
+.form-content {
+  background-color: #292929;
+  /* Dark grey background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Form title */
+.form-title {
+  margin-bottom: 20px;
+  text-align: center;
+  font: 3rem 'Comic Sans MS', sans-serif;
+  color: #ff5722;
+  /* Orange title */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Form items */
+.form-item {
+  margin-bottom: 20px;
+}
+
+/* Form label */
+.form-label {
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  /* White label */
+}
+
+/* Form input */
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ff5722;
+  /* Orange border */
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+  background-color: #444;
+  /* Dark grey input background */
+  color: #fff;
+  /* White text */
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #ffeb3b;
+  /* Yellow border on focus */
+}
+
+/* Error message */
+.form-error {
+  color: #ff3333;
+  /* Red error message */
+  font-size: 0.9rem;
+}
+
+/* Submit button */
+.form-submit {
+  display: inline-block;
+  width: 100%;
+  padding: 12px;
+  background-color: #ff5722;
+  /* Orange button */
+  color: #fff;
+  /* White text */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+  background-color: #ffeb3b;
+  /* Yellow button on hover */
+}
+
+/* Form info */
+.form-info {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #ccc;
+  /* Light grey info text */
+}
+
+/* Form link */
+.form-link {
+  color: #ff5722;
+  /* Orange link */
+  text-decoration: none;
+}
+
+.form-link:hover {
+  text-decoration: underline;
+}

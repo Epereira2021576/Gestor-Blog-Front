@@ -1,0 +1,87 @@
+.blog-section {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.max-w-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.blog-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #370380;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.blog-title:hover {
+    color: #080732;
+    transform: scale(1.05);
+}
+
+.blog-subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.blog-subtitle:hover {
+    color: #080732;
+    transform: scale(1.05);
+}
+
+.bg {
+    background-color: #f9fafb;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.sss {
+    padding: 10px 0;
+}
+
+.Contenedor-proyectos {
+    font-size: 2rem;
+    color: #080732;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.lista-proyectos {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.lista-proyectos li {
+    margin-bottom: 10px;
+    /* Reduje el margen inferior para hacer los elementos más compactos */
+}
+
+.lista-proyectos li a {
+    color: #555;
+    text-decoration: none;
+    font-size: 1.4rem;
+    transition: color 0.3s;
+    display: inline-block;
+    padding: 8px 16px;
+    /* Reduje el padding para hacer los elementos más compactos */
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lista-proyectos li a:hover {
+    color: #080732;
+    background-color: #e6e6e6;
+}

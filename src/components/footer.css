@@ -1,0 +1,54 @@
+/* Estilos generales del footer */
+.big-footer {
+  background-color: #ffd166;
+  padding: 10px;
+  /* Reduje el padding para hacer el footer más compacto */
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  color: #333;
+  z-index: 1000;
+}
+
+/* Estilos para el texto de derechos de autor */
+.my-5 {
+  font-size: 16px;
+  color: #333;
+  margin-top: 5px;
+  /* Reduje el margen superior */
+  margin-bottom: 5px;
+  /* Reduje el margen inferior */
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1px;
+  background-color: #ffa62b;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el botón */
+.my-button {
+  display: inline-block;
+  background-color: #ff7e67;
+  color: #fff;
+  padding: 8px 16px;
+  /* Reduje el padding para hacer el botón más compacto */
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 5px;
+  margin-left: 10px;
+  /* Reduje el margen superior */
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: #ff5733;
+  transform: translateY(-2px);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}

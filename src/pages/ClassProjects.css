@@ -1,0 +1,133 @@
+/* Estilos adicionales */
+
+/* Container Styles */
+.container {
+  position: relative;
+  background-color: #f4f0f6;
+  border: 1px solid #b5838d;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+  /* Agregado para evitar apilamiento */
+}
+
+.containerFirst {
+  position: relative;
+  background-color: #f4f0f6;
+  border: 1px solid #b5838d;
+  border-radius: 12px;
+  padding: 20px;
+  width: 1200px;
+  /* Cambia el valor de width según tu preferencia */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+
+/* Container Hover Styles */
+.container:hover .projectDescription {
+  max-height: 100%;
+}
+
+/* Description Styles */
+.projectDescription {
+  font-style: italic;
+  color: #7c3c54;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+/* Title Styles */
+.titleProyect {
+  background-color: #b5838d;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+/* Project Name Styles */
+.myName {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #7c3c54;
+}
+
+/* Button Styles */
+.container a.button {
+  display: block;
+  background-color: #d62c4b;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.container a.button:hover {
+  background-color: #a3243d;
+}
+
+/* Title Category Styles */
+.title-category-class {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #7c3c54;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 12px 20px;
+  background-color: #b5838d;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.title-category-class:hover {
+  background-color: #a3243d;
+  color: #fff;
+}
+
+/* Text Description Styles */
+.text-description {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #7c3c54;
+  margin-bottom: 20px;
+}
+
+/* Get Project Button Styles */
+.projectPreview {
+  text-decoration: none;
+}
+
+.projectPreview button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #1e3c72;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.projectPreview button:hover {
+  background-color: #163153;
+}

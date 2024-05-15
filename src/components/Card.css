@@ -1,0 +1,93 @@
+.big-container {
+  background-color: #f0f5f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+
+.big-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 100%;
+  background-color: #2c5282;
+  border-radius: 8px;
+}
+
+
+.author-1,
+.author-2 {
+  margin-bottom: 4px;
+}
+
+.author-3 {
+  font-weight: bold;
+  color: #2d3748;
+  cursor: pointer;
+  border-bottom: 2px solid #2c5282;
+  display: inline-block;
+  padding-bottom: 2px;
+}
+
+
+.title-home {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2d3748;
+  text-decoration: none;
+  transition: color 0.3s;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.title-home:hover {
+  color: #2c5282;
+}
+
+
+.desc {
+  color: #4a5568;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.timeDisplay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.onDate {
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+
+.delete-button {
+  background-color: #f56565;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #e53e3e;
+}
+
+.delete-button:focus {
+  outline: none;
+}
+
+
+.delete-icon {
+  vertical-align: middle;
+}
